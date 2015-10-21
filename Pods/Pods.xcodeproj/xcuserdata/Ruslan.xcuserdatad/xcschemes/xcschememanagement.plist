@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BLKFlexibleHeightBar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MZAppearance.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MZFormSheetController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-pos.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>61CB38ED164A3A77407B42E9816DB4EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6337F2996662A9CB7A13D5C4DA06110E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E68BFE72F91E1A98A7E44D31AECB884</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7E65CDF224322AD57CB839DEBD93656</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

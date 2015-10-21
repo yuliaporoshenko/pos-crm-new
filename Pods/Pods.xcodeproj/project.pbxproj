@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0955B4321A6B55B2D3636957D629DB5B /* MZFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47FF662CB6B59CDA7D77F5510DE67B /* MZFormSheetController.m */; };
+		3A079CB0676FE6F776ED2D815DC803E2 /* BLKFlexibleHeightBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CCA51DF4161D524B0E831268F291AD /* BLKFlexibleHeightBar.m */; };
+		3F61DE545721AA460A642B326059D164 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C459684B0F707FFAAE360B4D6B70166D /* QuartzCore.framework */; };
+		3F6CDDB962F7171CAF3AE463086F0559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */; };
+		412D30EE8902E07C23555824F5E45166 /* FacebookStyleBarBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BA13410C3618C7B003FA1F74EE2AA5 /* FacebookStyleBarBehaviorDefiner.h */; };
+		502437F607D3039B5B83A224B81B2EDD /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6125799DDA5742C8ACC72FDDF0DC3 /* NSInvocation+Copy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		684E1FE5A103E68A072A5C7C873C3331 /* UIImage+Additional.h in Headers */ = {isa = PBXBuildFile; fileRef = C001E63C08F43CD3282F79C9D6116198 /* UIImage+Additional.h */; };
+		6A30A08E910742CD7C00C6546897E1A3 /* SquareCashStyleBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FEB784677A41204F32C43831C23F32 /* SquareCashStyleBehaviorDefiner.h */; };
+		6F699D4177B3459FB42F10F6D4E93302 /* NSInvocation+Copy.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1FF09CB34C1AB00B693564BC3B4D0E /* NSInvocation+Copy.h */; };
+		6F9F4A3146FF9A5B1A081105D3DBD84A /* MZMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEE982412316D3C94DEC1F92B12C4B5 /* MZMacro.h */; };
+		725F295312261A0B186C2F8F6DABA770 /* MZFormSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2F385C833682A8AE42B6D4897D1790 /* MZFormSheetController.h */; };
+		7A9467B0EC138DCF28ADA9399A12941A /* MZAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4176BC44B62D8FF9DB79A237E02DA49D /* MZAppearance-dummy.m */; };
+		7ED04BCBFD3A6EC44D35C5F6BDAEAF1D /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = C88B69F7E6BBA055E4B66A325C6C8D44 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */; };
+		818CE83826D38F689375B134E1D91345 /* BLKFlexibleHeightBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAF2742E5B14704CADD8504EFFDD42A /* BLKFlexibleHeightBar.h */; };
+		850E27E0FD4AD7B12B1E9E2A0BFEFA23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C459684B0F707FFAAE360B4D6B70166D /* QuartzCore.framework */; };
+		86398F0895D88C48857774F4BFD5849B /* Pods-pos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BEEAA815A1796CB7AAF97F4228366C /* Pods-pos-dummy.m */; };
+		8CDA834EA8FB7E8F83E0D8A575889144 /* BLKDelegateSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA77774602BF60E5C788C99F6FB8051 /* BLKDelegateSplitter.h */; };
+		8E4C5AC980B2FDFE3A880D31986F1A01 /* MZFormSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6768340BCB8265AF2B001465EF60C /* MZFormSheetController-dummy.m */; };
+		9318B1BCD967A9306613DAF53F28D4E3 /* MZFormSheetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CB753FC4CE7AF4B21B747AC17A2585 /* MZFormSheetSegue.m */; };
+		9D7A07540CB82AC04AFAF4C20A1E7A71 /* BLKFlexibleHeightBarBehaviorDefiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 32497D3EC19F7C6215FF2010F988AE1F /* BLKFlexibleHeightBarBehaviorDefiner.h */; };
+		A107DA8B84A98252D622C8EC83CF819F /* MZFormSheetBackgroundWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8A4F327AA6471C0A96D42B0C20423 /* MZFormSheetBackgroundWindow.h */; };
+		A81362D3352065A6248D7CC8E00E262C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */; };
+		AC7FD04DD441FF27C917D8C2C6FAA385 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = CC93C2CACAE7E2CF80D0FD692CE4E6B8 /* UIImage+Additional.m */; };
+		B7B21F50ECB8AF018D74C5BE916A7611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */; };
+		BA550DB5925FBA8AE4353236FEC765E1 /* MZFormSheetBackgroundWindowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5ABD97B3F3BBEBB6B959CF06D533352 /* MZFormSheetBackgroundWindowViewController.h */; };
+		BBC02783A784AC44D99BE58B61BC2650 /* UIViewController+TargetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DC0EB5904DC1306C48BF6065CA21B0 /* UIViewController+TargetViewController.h */; };
+		BE8505A465B113A76459B913EDAF3290 /* UIView+BLKFlexibleHeightBarSubview.h in Headers */ = {isa = PBXBuildFile; fileRef = 234A13A87BE85111652E207C387FFEB5 /* UIView+BLKFlexibleHeightBarSubview.h */; };
+		C65AC0E7BC49EA436BCB8B380E1EC0A3 /* MZAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = F95214EB7E25E7B83304DD7EE6733B27 /* MZAppearance.h */; };
+		CD71E12E6AA09EB5F50590E8B17B70E5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1A79DF46C34E53D8AA77DD532B322D /* Accelerate.framework */; };
+		D68B28C5792CB4C64DB4E30D17006992 /* FacebookStyleBarBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = C73C44F70F83F71FC86693366AB9FBBF /* FacebookStyleBarBehaviorDefiner.m */; };
+		D7F722BEBC7B960D9E7D452207C4B265 /* MZFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606554B95A2D11FA4B5CD9F4595B747A /* MZFormSheetBackgroundWindowViewController.m */; };
+		D848B546C9DE2E922CD5609C50C51B44 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B47EC072331F34D2E9E50E35F18B7 /* UIView+BLKFlexibleHeightBarSubview.m */; };
+		DAA34F11B051A11C4746AC0DE89C487D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */; };
+		E14A5863882BE429B7CF598017978304 /* MZFormSheetSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD8CBF4BCDB6C8075CD6ECD0D8982BE /* MZFormSheetSegue.h */; };
+		E48B5096A4897A3167D4AB58B748E4B2 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E6592D1C86F9D1161470D4CADE266166 /* MZAppearance.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8CAC7B00A20B9BF110D6A9FAF68FCC4 /* BLKDelegateSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ADA904316B010622CA7C72ABE7BED1 /* BLKDelegateSplitter.m */; };
+		E91AAFE62442A072FC941B6AC4323A37 /* MZFormSheetTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F55B4318BDAAE00256C9D6FF9886A3B4 /* MZFormSheetTransition.m */; };
+		EFA3911836E1FFCE43FA45E4D11E7C45 /* BLKFlexibleHeightBarBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = FA15F2C26E9B4E7D3DAC84E85041A185 /* BLKFlexibleHeightBarBehaviorDefiner.m */; };
+		F0F05A581695B57ABFB6C5AE5C43A2CF /* MZFormSheetTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE66EECE68641EE886A463AD1FEFC1E /* MZFormSheetTransition.h */; };
+		F1A2C1C6BBABFED75C46A473372B0256 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EFFC15854CB93D6B35E125676D255D /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */; };
+		F3D11E13B787A3AC5D7CEBDED4030615 /* SquareCashStyleBehaviorDefiner.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF89E0ADFCE32D5D8D08B05CEDAB1F /* SquareCashStyleBehaviorDefiner.m */; };
+		FB8632D331BB79E1E9BDE1A134616EB8 /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D161162924AE433D929DE8BFE33127C2 /* MZFormSheetBackgroundWindow.m */; };
+		FD0CEBCA3F6531D2414E1A285EEB0033 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BC53D61BC5C59C1E2E466BE1D579F /* UIViewController+TargetViewController.m */; };
+		FEC488DD2C83BFDCF442BEBD7C8BAAE1 /* BLKFlexibleHeightBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFECF2E076CDBD6347896547F68AD0A /* BLKFlexibleHeightBar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EACE212DD0124B85E005DCC36D312C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7E65CDF224322AD57CB839DEBD93656;
+			remoteInfo = BLKFlexibleHeightBar;
+		};
+		8C8BD273A7AD70387B40C5421E5FAE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E68BFE72F91E1A98A7E44D31AECB884;
+			remoteInfo = MZAppearance;
+		};
+		B355B8EDA662115E3F98A058B3DC975A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6337F2996662A9CB7A13D5C4DA06110E;
+			remoteInfo = MZFormSheetController;
+		};
+		E1F66C1BB9C32425948710B81495CF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E68BFE72F91E1A98A7E44D31AECB884;
+			remoteInfo = MZAppearance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130ED29978FDF3D0A19467BFFCF6A35E /* MZFormSheetController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MZFormSheetController-Private.xcconfig"; sourceTree = "<group>"; };
+		1C1A79DF46C34E53D8AA77DD532B322D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		234A13A87BE85111652E207C387FFEB5 /* UIView+BLKFlexibleHeightBarSubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BLKFlexibleHeightBarSubview.h"; path = "BLKFlexibleHeightBar/UIView+BLKFlexibleHeightBarSubview.h"; sourceTree = "<group>"; };
+		25305B1AA37EACA70E349C083B067390 /* libMZAppearance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMZAppearance.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CCA51DF4161D524B0E831268F291AD /* BLKFlexibleHeightBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBar.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBar.m; sourceTree = "<group>"; };
+		28DC0EB5904DC1306C48BF6065CA21B0 /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TargetViewController.h"; path = "MZFormSheetController/UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		2C142993C4164BF5D6CB7C7289DA251C /* BLKFlexibleHeightBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BLKFlexibleHeightBar-Private.xcconfig"; sourceTree = "<group>"; };
+		2FC18DE64F6589A6293CD73209EEFF0B /* MZAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZAppearance-prefix.pch"; sourceTree = "<group>"; };
+		32497D3EC19F7C6215FF2010F988AE1F /* BLKFlexibleHeightBarBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBarBehaviorDefiner.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarBehaviorDefiner.h; sourceTree = "<group>"; };
+		33BEEAA815A1796CB7AAF97F4228366C /* Pods-pos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pos-dummy.m"; sourceTree = "<group>"; };
+		34BA13410C3618C7B003FA1F74EE2AA5 /* FacebookStyleBarBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacebookStyleBarBehaviorDefiner.h; path = BLKFlexibleHeightBar/FacebookStyleBarBehaviorDefiner.h; sourceTree = "<group>"; };
+		3D4BC53D61BC5C59C1E2E466BE1D579F /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TargetViewController.m"; path = "MZFormSheetController/UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		4176BC44B62D8FF9DB79A237E02DA49D /* MZAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZAppearance-dummy.m"; sourceTree = "<group>"; };
+		42E6125799DDA5742C8ACC72FDDF0DC3 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+Copy.m"; path = "MZAppearance/NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		4B028649E61A2B2541D5D0D950F32A4F /* MZAppearance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZAppearance.xcconfig; sourceTree = "<group>"; };
+		4EA77774602BF60E5C788C99F6FB8051 /* BLKDelegateSplitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKDelegateSplitter.h; path = BLKFlexibleHeightBar/BLKDelegateSplitter.h; sourceTree = "<group>"; };
+		4FF2799F07B14B390A47B08C44A88D54 /* MZFormSheetController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZFormSheetController.xcconfig; sourceTree = "<group>"; };
+		57EFFC15854CB93D6B35E125676D255D /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBarSubviewLayoutAttributes.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarSubviewLayoutAttributes.h; sourceTree = "<group>"; };
+		5B47FF662CB6B59CDA7D77F5510DE67B /* MZFormSheetController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetController.m; path = MZFormSheetController/MZFormSheetController.m; sourceTree = "<group>"; };
+		5FEE982412316D3C94DEC1F92B12C4B5 /* MZMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZMacro.h; path = MZFormSheetController/MZMacro.h; sourceTree = "<group>"; };
+		606554B95A2D11FA4B5CD9F4595B747A /* MZFormSheetBackgroundWindowViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetBackgroundWindowViewController.m; path = MZFormSheetController/MZFormSheetBackgroundWindowViewController.m; sourceTree = "<group>"; };
+		629AA15958D95B9D2AD6BF6E7DEEA7F7 /* Pods-pos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pos-acknowledgements.plist"; sourceTree = "<group>"; };
+		698F1011E62010396000F2AE7B6994E2 /* Pods-pos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E9B47EC072331F34D2E9E50E35F18B7 /* UIView+BLKFlexibleHeightBarSubview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BLKFlexibleHeightBarSubview.m"; path = "BLKFlexibleHeightBar/UIView+BLKFlexibleHeightBarSubview.m"; sourceTree = "<group>"; };
+		6FEA9972ED308B80342AC64903F1D851 /* Pods-pos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pos-resources.sh"; sourceTree = "<group>"; };
+		7AD975506ECDB513FC317FB36C11A1C0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7DAF2742E5B14704CADD8504EFFDD42A /* BLKFlexibleHeightBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLKFlexibleHeightBar.h; path = BLKFlexibleHeightBar/BLKFlexibleHeightBar.h; sourceTree = "<group>"; };
+		8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8EC8A4F327AA6471C0A96D42B0C20423 /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetBackgroundWindow.h; path = MZFormSheetController/MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		96F6768340BCB8265AF2B001465EF60C /* MZFormSheetController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZFormSheetController-dummy.m"; sourceTree = "<group>"; };
+		97EA70B6069F891F8F29D4C1C1C41B92 /* Pods-pos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pos.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD8CBF4BCDB6C8075CD6ECD0D8982BE /* MZFormSheetSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetSegue.h; path = MZFormSheetController/MZFormSheetSegue.h; sourceTree = "<group>"; };
+		9FFECF2E076CDBD6347896547F68AD0A /* BLKFlexibleHeightBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLKFlexibleHeightBar-dummy.m"; sourceTree = "<group>"; };
+		A5FEB784677A41204F32C43831C23F32 /* SquareCashStyleBehaviorDefiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SquareCashStyleBehaviorDefiner.h; path = BLKFlexibleHeightBar/SquareCashStyleBehaviorDefiner.h; sourceTree = "<group>"; };
+		B31EEB349DA2D372E185911DD4016C43 /* MZAppearance-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MZAppearance-Private.xcconfig"; sourceTree = "<group>"; };
+		B4E21C5C65A0196B798076468BD67515 /* libMZFormSheetController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMZFormSheetController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD1FF09CB34C1AB00B693564BC3B4D0E /* NSInvocation+Copy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+Copy.h"; path = "MZAppearance/NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		C001E63C08F43CD3282F79C9D6116198 /* UIImage+Additional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additional.h"; path = "MZFormSheetController/UIImage+Additional.h"; sourceTree = "<group>"; };
+		C0D126CB7E01B7C08FEDE55AED821770 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		C3CB753FC4CE7AF4B21B747AC17A2585 /* MZFormSheetSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetSegue.m; path = MZFormSheetController/MZFormSheetSegue.m; sourceTree = "<group>"; };
+		C459684B0F707FFAAE360B4D6B70166D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C73C44F70F83F71FC86693366AB9FBBF /* FacebookStyleBarBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FacebookStyleBarBehaviorDefiner.m; path = BLKFlexibleHeightBar/FacebookStyleBarBehaviorDefiner.m; sourceTree = "<group>"; };
+		C88B69F7E6BBA055E4B66A325C6C8D44 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBarSubviewLayoutAttributes.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarSubviewLayoutAttributes.m; sourceTree = "<group>"; };
+		C8ADA904316B010622CA7C72ABE7BED1 /* BLKDelegateSplitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKDelegateSplitter.m; path = BLKFlexibleHeightBar/BLKDelegateSplitter.m; sourceTree = "<group>"; };
+		CC93C2CACAE7E2CF80D0FD692CE4E6B8 /* UIImage+Additional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additional.m"; path = "MZFormSheetController/UIImage+Additional.m"; sourceTree = "<group>"; };
+		D161162924AE433D929DE8BFE33127C2 /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetBackgroundWindow.m; path = MZFormSheetController/MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		D5ABD97B3F3BBEBB6B959CF06D533352 /* MZFormSheetBackgroundWindowViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetBackgroundWindowViewController.h; path = MZFormSheetController/MZFormSheetBackgroundWindowViewController.h; sourceTree = "<group>"; };
+		D9E255B7A349ADC7FE4C03B9EFB134F5 /* MZFormSheetController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetController-prefix.pch"; sourceTree = "<group>"; };
+		DA28BFF2B2BF54549C708344B8C01A29 /* BLKFlexibleHeightBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLKFlexibleHeightBar-prefix.pch"; sourceTree = "<group>"; };
+		DEE66EECE68641EE886A463AD1FEFC1E /* MZFormSheetTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetTransition.h; path = MZFormSheetController/MZFormSheetTransition.h; sourceTree = "<group>"; };
+		E3CAB267EDBFDF8ABEF6A67408E444F5 /* Pods-pos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pos.release.xcconfig"; sourceTree = "<group>"; };
+		E6592D1C86F9D1161470D4CADE266166 /* MZAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZAppearance.m; path = MZAppearance/MZAppearance.m; sourceTree = "<group>"; };
+		E88EEAEAA904FCBF1AA7EDC6A65F5AD2 /* BLKFlexibleHeightBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLKFlexibleHeightBar.xcconfig; sourceTree = "<group>"; };
+		E895152EB187F72A81233098F41247B7 /* libBLKFlexibleHeightBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBLKFlexibleHeightBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFD6B2EFC834B150706D6B25436558B /* libPods-pos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55B4318BDAAE00256C9D6FF9886A3B4 /* MZFormSheetTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZFormSheetTransition.m; path = MZFormSheetController/MZFormSheetTransition.m; sourceTree = "<group>"; };
+		F95214EB7E25E7B83304DD7EE6733B27 /* MZAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZAppearance.h; path = MZAppearance/MZAppearance.h; sourceTree = "<group>"; };
+		FA15F2C26E9B4E7D3DAC84E85041A185 /* BLKFlexibleHeightBarBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLKFlexibleHeightBarBehaviorDefiner.m; path = BLKFlexibleHeightBar/BLKFlexibleHeightBarBehaviorDefiner.m; sourceTree = "<group>"; };
+		FA2F385C833682A8AE42B6D4897D1790 /* MZFormSheetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZFormSheetController.h; path = MZFormSheetController/MZFormSheetController.h; sourceTree = "<group>"; };
+		FDFF89E0ADFCE32D5D8D08B05CEDAB1F /* SquareCashStyleBehaviorDefiner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SquareCashStyleBehaviorDefiner.m; path = BLKFlexibleHeightBar/SquareCashStyleBehaviorDefiner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADEF9310DDBD6BE331E40AD6DB4ABB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6CDDB962F7171CAF3AE463086F0559 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BADDF18A799AA5D29869C4D845D865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81362D3352065A6248D7CC8E00E262C /* Foundation.framework in Frameworks */,
+				3F61DE545721AA460A642B326059D164 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B317EE95D59C47BA6AA3E2887CEB6B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71E12E6AA09EB5F50590E8B17B70E5 /* Accelerate.framework in Frameworks */,
+				DAA34F11B051A11C4746AC0DE89C487D /* Foundation.framework in Frameworks */,
+				850E27E0FD4AD7B12B1E9E2A0BFEFA23 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46824F61F406630BB324F8C58D5259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B21F50ECB8AF018D74C5BE916A7611 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119D6AF064E87E145C0BF4E2FD625327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E88EEAEAA904FCBF1AA7EDC6A65F5AD2 /* BLKFlexibleHeightBar.xcconfig */,
+				2C142993C4164BF5D6CB7C7289DA251C /* BLKFlexibleHeightBar-Private.xcconfig */,
+				9FFECF2E076CDBD6347896547F68AD0A /* BLKFlexibleHeightBar-dummy.m */,
+				DA28BFF2B2BF54549C708344B8C01A29 /* BLKFlexibleHeightBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BLKFlexibleHeightBar";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				915B41D7CCE43493BEE08887182D9662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16AA2DA7A416BB5D4F4BCC1920F27197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F69DAE6690D36BE1C6FC64C4721808 /* BLKFlexibleHeightBar */,
+				5D038A8DEB813904C27A706738CC7CC1 /* GoogleMaps */,
+				843A72C61E131E8C040CD57688C8FBD0 /* MZAppearance */,
+				D4B10CFE438D1E5DDA4FA26541EA6699 /* MZFormSheetController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		191FA3479744B78781880D84FC7A6EEE /* Pods-pos */ = {
+			isa = PBXGroup;
+			children = (
+				698F1011E62010396000F2AE7B6994E2 /* Pods-pos-acknowledgements.markdown */,
+				629AA15958D95B9D2AD6BF6E7DEEA7F7 /* Pods-pos-acknowledgements.plist */,
+				33BEEAA815A1796CB7AAF97F4228366C /* Pods-pos-dummy.m */,
+				6FEA9972ED308B80342AC64903F1D851 /* Pods-pos-resources.sh */,
+				97EA70B6069F891F8F29D4C1C1C41B92 /* Pods-pos.debug.xcconfig */,
+				E3CAB267EDBFDF8ABEF6A67408E444F5 /* Pods-pos.release.xcconfig */,
+			);
+			name = "Pods-pos";
+			path = "Target Support Files/Pods-pos";
+			sourceTree = "<group>";
+		};
+		3A8DD59BE5C1E5CE43E8CFCFF222EB83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0D126CB7E01B7C08FEDE55AED821770 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D1994F0183701C6166667DC96BF5A4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				191FA3479744B78781880D84FC7A6EEE /* Pods-pos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D038A8DEB813904C27A706738CC7CC1 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				D544C379ED7942FB72ABC9CFFD6241F8 /* Frameworks */,
+				3A8DD59BE5C1E5CE43E8CFCFF222EB83 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				16AA2DA7A416BB5D4F4BCC1920F27197 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4D1994F0183701C6166667DC96BF5A4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		843A72C61E131E8C040CD57688C8FBD0 /* MZAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				F95214EB7E25E7B83304DD7EE6733B27 /* MZAppearance.h */,
+				E6592D1C86F9D1161470D4CADE266166 /* MZAppearance.m */,
+				BD1FF09CB34C1AB00B693564BC3B4D0E /* NSInvocation+Copy.h */,
+				42E6125799DDA5742C8ACC72FDDF0DC3 /* NSInvocation+Copy.m */,
+				D4080AB81AC936A79C36FD93E163C9C9 /* Support Files */,
+			);
+			path = MZAppearance;
+			sourceTree = "<group>";
+		};
+		89041E58CD3771B9CA0F0483D79E7241 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2799F07B14B390A47B08C44A88D54 /* MZFormSheetController.xcconfig */,
+				130ED29978FDF3D0A19467BFFCF6A35E /* MZFormSheetController-Private.xcconfig */,
+				96F6768340BCB8265AF2B001465EF60C /* MZFormSheetController-dummy.m */,
+				D9E255B7A349ADC7FE4C03B9EFB134F5 /* MZFormSheetController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZFormSheetController";
+			sourceTree = "<group>";
+		};
+		907C9165C2BECD166CF9F8D4FD98D96F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8A4F327AA6471C0A96D42B0C20423 /* MZFormSheetBackgroundWindow.h */,
+				D161162924AE433D929DE8BFE33127C2 /* MZFormSheetBackgroundWindow.m */,
+				D5ABD97B3F3BBEBB6B959CF06D533352 /* MZFormSheetBackgroundWindowViewController.h */,
+				606554B95A2D11FA4B5CD9F4595B747A /* MZFormSheetBackgroundWindowViewController.m */,
+				FA2F385C833682A8AE42B6D4897D1790 /* MZFormSheetController.h */,
+				5B47FF662CB6B59CDA7D77F5510DE67B /* MZFormSheetController.m */,
+				9DD8CBF4BCDB6C8075CD6ECD0D8982BE /* MZFormSheetSegue.h */,
+				C3CB753FC4CE7AF4B21B747AC17A2585 /* MZFormSheetSegue.m */,
+				DEE66EECE68641EE886A463AD1FEFC1E /* MZFormSheetTransition.h */,
+				F55B4318BDAAE00256C9D6FF9886A3B4 /* MZFormSheetTransition.m */,
+				5FEE982412316D3C94DEC1F92B12C4B5 /* MZMacro.h */,
+				C001E63C08F43CD3282F79C9D6116198 /* UIImage+Additional.h */,
+				CC93C2CACAE7E2CF80D0FD692CE4E6B8 /* UIImage+Additional.m */,
+				28DC0EB5904DC1306C48BF6065CA21B0 /* UIViewController+TargetViewController.h */,
+				3D4BC53D61BC5C59C1E2E466BE1D579F /* UIViewController+TargetViewController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		915B41D7CCE43493BEE08887182D9662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A79DF46C34E53D8AA77DD532B322D /* Accelerate.framework */,
+				8C2DE77C69A55A623007837B2B0C18DC /* Foundation.framework */,
+				C459684B0F707FFAAE360B4D6B70166D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E895152EB187F72A81233098F41247B7 /* libBLKFlexibleHeightBar.a */,
+				25305B1AA37EACA70E349C083B067390 /* libMZAppearance.a */,
+				B4E21C5C65A0196B798076468BD67515 /* libMZFormSheetController.a */,
+				ECFD6B2EFC834B150706D6B25436558B /* libPods-pos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4080AB81AC936A79C36FD93E163C9C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B028649E61A2B2541D5D0D950F32A4F /* MZAppearance.xcconfig */,
+				B31EEB349DA2D372E185911DD4016C43 /* MZAppearance-Private.xcconfig */,
+				4176BC44B62D8FF9DB79A237E02DA49D /* MZAppearance-dummy.m */,
+				2FC18DE64F6589A6293CD73209EEFF0B /* MZAppearance-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZAppearance";
+			sourceTree = "<group>";
+		};
+		D4B10CFE438D1E5DDA4FA26541EA6699 /* MZFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				907C9165C2BECD166CF9F8D4FD98D96F /* Core */,
+				89041E58CD3771B9CA0F0483D79E7241 /* Support Files */,
+			);
+			path = MZFormSheetController;
+			sourceTree = "<group>";
+		};
+		D544C379ED7942FB72ABC9CFFD6241F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD975506ECDB513FC317FB36C11A1C0 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F69DAE6690D36BE1C6FC64C4721808 /* BLKFlexibleHeightBar */ = {
+			isa = PBXGroup;
+			children = (
+				4EA77774602BF60E5C788C99F6FB8051 /* BLKDelegateSplitter.h */,
+				C8ADA904316B010622CA7C72ABE7BED1 /* BLKDelegateSplitter.m */,
+				7DAF2742E5B14704CADD8504EFFDD42A /* BLKFlexibleHeightBar.h */,
+				25CCA51DF4161D524B0E831268F291AD /* BLKFlexibleHeightBar.m */,
+				32497D3EC19F7C6215FF2010F988AE1F /* BLKFlexibleHeightBarBehaviorDefiner.h */,
+				FA15F2C26E9B4E7D3DAC84E85041A185 /* BLKFlexibleHeightBarBehaviorDefiner.m */,
+				57EFFC15854CB93D6B35E125676D255D /* BLKFlexibleHeightBarSubviewLayoutAttributes.h */,
+				C88B69F7E6BBA055E4B66A325C6C8D44 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m */,
+				34BA13410C3618C7B003FA1F74EE2AA5 /* FacebookStyleBarBehaviorDefiner.h */,
+				C73C44F70F83F71FC86693366AB9FBBF /* FacebookStyleBarBehaviorDefiner.m */,
+				A5FEB784677A41204F32C43831C23F32 /* SquareCashStyleBehaviorDefiner.h */,
+				FDFF89E0ADFCE32D5D8D08B05CEDAB1F /* SquareCashStyleBehaviorDefiner.m */,
+				234A13A87BE85111652E207C387FFEB5 /* UIView+BLKFlexibleHeightBarSubview.h */,
+				6E9B47EC072331F34D2E9E50E35F18B7 /* UIView+BLKFlexibleHeightBarSubview.m */,
+				119D6AF064E87E145C0BF4E2FD625327 /* Support Files */,
+			);
+			path = BLKFlexibleHeightBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E5A6B11EADDA7A2CF9316A32E3E7B2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65AC0E7BC49EA436BCB8B380E1EC0A3 /* MZAppearance.h in Headers */,
+				6F699D4177B3459FB42F10F6D4E93302 /* NSInvocation+Copy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A9179B1CD4388929660EB08FF77960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA834EA8FB7E8F83E0D8A575889144 /* BLKDelegateSplitter.h in Headers */,
+				818CE83826D38F689375B134E1D91345 /* BLKFlexibleHeightBar.h in Headers */,
+				9D7A07540CB82AC04AFAF4C20A1E7A71 /* BLKFlexibleHeightBarBehaviorDefiner.h in Headers */,
+				F1A2C1C6BBABFED75C46A473372B0256 /* BLKFlexibleHeightBarSubviewLayoutAttributes.h in Headers */,
+				412D30EE8902E07C23555824F5E45166 /* FacebookStyleBarBehaviorDefiner.h in Headers */,
+				6A30A08E910742CD7C00C6546897E1A3 /* SquareCashStyleBehaviorDefiner.h in Headers */,
+				BE8505A465B113A76459B913EDAF3290 /* UIView+BLKFlexibleHeightBarSubview.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD25AD77E4ED1C4C220AD0514D608E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A107DA8B84A98252D622C8EC83CF819F /* MZFormSheetBackgroundWindow.h in Headers */,
+				BA550DB5925FBA8AE4353236FEC765E1 /* MZFormSheetBackgroundWindowViewController.h in Headers */,
+				725F295312261A0B186C2F8F6DABA770 /* MZFormSheetController.h in Headers */,
+				E14A5863882BE429B7CF598017978304 /* MZFormSheetSegue.h in Headers */,
+				F0F05A581695B57ABFB6C5AE5C43A2CF /* MZFormSheetTransition.h in Headers */,
+				6F9F4A3146FF9A5B1A081105D3DBD84A /* MZMacro.h in Headers */,
+				684E1FE5A103E68A072A5C7C873C3331 /* UIImage+Additional.h in Headers */,
+				BBC02783A784AC44D99BE58B61BC2650 /* UIViewController+TargetViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61CB38ED164A3A77407B42E9816DB4EF /* Pods-pos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1B6D20FDE321D6880DC767F9300B7C /* Build configuration list for PBXNativeTarget "Pods-pos" */;
+			buildPhases = (
+				A8D6742D12BF8A682303FC92D88A0444 /* Sources */,
+				B46824F61F406630BB324F8C58D5259C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6708F65B1BA3816D2E37322E19977DB /* PBXTargetDependency */,
+				741C41A1184BA8E5E0F74FE6C1827478 /* PBXTargetDependency */,
+				FF2D05193E96B4851CF115EB10F49306 /* PBXTargetDependency */,
+			);
+			name = "Pods-pos";
+			productName = "Pods-pos";
+			productReference = ECFD6B2EFC834B150706D6B25436558B /* libPods-pos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6337F2996662A9CB7A13D5C4DA06110E /* MZFormSheetController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DF62B0E7E73483CD065B2E7074100C /* Build configuration list for PBXNativeTarget "MZFormSheetController" */;
+			buildPhases = (
+				38C2E5F1F21C751226341E52B7B24971 /* Sources */,
+				B317EE95D59C47BA6AA3E2887CEB6B3D /* Frameworks */,
+				A9FD25AD77E4ED1C4C220AD0514D608E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05D5C7645C61CE791D0D48FEBFBDE9D /* PBXTargetDependency */,
+			);
+			name = MZFormSheetController;
+			productName = MZFormSheetController;
+			productReference = B4E21C5C65A0196B798076468BD67515 /* libMZFormSheetController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E68BFE72F91E1A98A7E44D31AECB884 /* MZAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525F3EA092EA291A42CBCC90173625CF /* Build configuration list for PBXNativeTarget "MZAppearance" */;
+			buildPhases = (
+				A96906744A8AC85F302EC131B8DDC77E /* Sources */,
+				78BADDF18A799AA5D29869C4D845D865 /* Frameworks */,
+				4E5A6B11EADDA7A2CF9316A32E3E7B2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZAppearance;
+			productName = MZAppearance;
+			productReference = 25305B1AA37EACA70E349C083B067390 /* libMZAppearance.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7E65CDF224322AD57CB839DEBD93656 /* BLKFlexibleHeightBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B992527C4FBBDE074B7267DE14328D5E /* Build configuration list for PBXNativeTarget "BLKFlexibleHeightBar" */;
+			buildPhases = (
+				04640100329BA74469FB5297D6ED4191 /* Sources */,
+				6ADEF9310DDBD6BE331E40AD6DB4ABB5 /* Frameworks */,
+				A4A9179B1CD4388929660EB08FF77960 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLKFlexibleHeightBar;
+			productName = BLKFlexibleHeightBar;
+			productReference = E895152EB187F72A81233098F41247B7 /* libBLKFlexibleHeightBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E65CDF224322AD57CB839DEBD93656 /* BLKFlexibleHeightBar */,
+				9E68BFE72F91E1A98A7E44D31AECB884 /* MZAppearance */,
+				6337F2996662A9CB7A13D5C4DA06110E /* MZFormSheetController */,
+				61CB38ED164A3A77407B42E9816DB4EF /* Pods-pos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04640100329BA74469FB5297D6ED4191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CAC7B00A20B9BF110D6A9FAF68FCC4 /* BLKDelegateSplitter.m in Sources */,
+				FEC488DD2C83BFDCF442BEBD7C8BAAE1 /* BLKFlexibleHeightBar-dummy.m in Sources */,
+				3A079CB0676FE6F776ED2D815DC803E2 /* BLKFlexibleHeightBar.m in Sources */,
+				EFA3911836E1FFCE43FA45E4D11E7C45 /* BLKFlexibleHeightBarBehaviorDefiner.m in Sources */,
+				7ED04BCBFD3A6EC44D35C5F6BDAEAF1D /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
+				D68B28C5792CB4C64DB4E30D17006992 /* FacebookStyleBarBehaviorDefiner.m in Sources */,
+				F3D11E13B787A3AC5D7CEBDED4030615 /* SquareCashStyleBehaviorDefiner.m in Sources */,
+				D848B546C9DE2E922CD5609C50C51B44 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C2E5F1F21C751226341E52B7B24971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8632D331BB79E1E9BDE1A134616EB8 /* MZFormSheetBackgroundWindow.m in Sources */,
+				D7F722BEBC7B960D9E7D452207C4B265 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
+				8E4C5AC980B2FDFE3A880D31986F1A01 /* MZFormSheetController-dummy.m in Sources */,
+				0955B4321A6B55B2D3636957D629DB5B /* MZFormSheetController.m in Sources */,
+				9318B1BCD967A9306613DAF53F28D4E3 /* MZFormSheetSegue.m in Sources */,
+				E91AAFE62442A072FC941B6AC4323A37 /* MZFormSheetTransition.m in Sources */,
+				AC7FD04DD441FF27C917D8C2C6FAA385 /* UIImage+Additional.m in Sources */,
+				FD0CEBCA3F6531D2414E1A285EEB0033 /* UIViewController+TargetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D6742D12BF8A682303FC92D88A0444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86398F0895D88C48857774F4BFD5849B /* Pods-pos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96906744A8AC85F302EC131B8DDC77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9467B0EC138DCF28ADA9399A12941A /* MZAppearance-dummy.m in Sources */,
+				E48B5096A4897A3167D4AB58B748E4B2 /* MZAppearance.m in Sources */,
+				502437F607D3039B5B83A224B81B2EDD /* NSInvocation+Copy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741C41A1184BA8E5E0F74FE6C1827478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = 9E68BFE72F91E1A98A7E44D31AECB884 /* MZAppearance */;
+			targetProxy = 8C8BD273A7AD70387B40C5421E5FAE7F /* PBXContainerItemProxy */;
+		};
+		C05D5C7645C61CE791D0D48FEBFBDE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			target = 9E68BFE72F91E1A98A7E44D31AECB884 /* MZAppearance */;
+			targetProxy = E1F66C1BB9C32425948710B81495CF7C /* PBXContainerItemProxy */;
+		};
+		F6708F65B1BA3816D2E37322E19977DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLKFlexibleHeightBar;
+			target = A7E65CDF224322AD57CB839DEBD93656 /* BLKFlexibleHeightBar */;
+			targetProxy = 1EACE212DD0124B85E005DCC36D312C6 /* PBXContainerItemProxy */;
+		};
+		FF2D05193E96B4851CF115EB10F49306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZFormSheetController;
+			target = 6337F2996662A9CB7A13D5C4DA06110E /* MZFormSheetController */;
+			targetProxy = B355B8EDA662115E3F98A058B3DC975A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A6D2FFD67A346CEC86632C4E77B99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130ED29978FDF3D0A19467BFFCF6A35E /* MZFormSheetController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFormSheetController/MZFormSheetController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		57AAA399F04F85625EBF8E75A3356608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31EEB349DA2D372E185911DD4016C43 /* MZAppearance-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7830A04B45BF35B0184BE501E5961662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130ED29978FDF3D0A19467BFFCF6A35E /* MZFormSheetController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZFormSheetController/MZFormSheetController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8529573FE1E3C08CF4C4ACB1354F7A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C142993C4164BF5D6CB7C7289DA251C /* BLKFlexibleHeightBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EB645C612834738B99727720210C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A40EC294B9DAF1053294056CFE2775BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31EEB349DA2D372E185911DD4016C43 /* MZAppearance-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZAppearance/MZAppearance-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A77036182DEBE26E875A8C758CBE65E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CAB267EDBFDF8ABEF6A67408E444F5 /* Pods-pos.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BFCAF92DBEDA386453285586B1C2E2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97EA70B6069F891F8F29D4C1C1C41B92 /* Pods-pos.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF090B2191D95DE085D7FF4A578C8707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C142993C4164BF5D6CB7C7289DA251C /* BLKFlexibleHeightBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLKFlexibleHeightBar/BLKFlexibleHeightBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525F3EA092EA291A42CBCC90173625CF /* Build configuration list for PBXNativeTarget "MZAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40EC294B9DAF1053294056CFE2775BB /* Debug */,
+				57AAA399F04F85625EBF8E75A3356608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DF62B0E7E73483CD065B2E7074100C /* Build configuration list for PBXNativeTarget "MZFormSheetController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7830A04B45BF35B0184BE501E5961662 /* Debug */,
+				05A6D2FFD67A346CEC86632C4E77B99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B1B6D20FDE321D6880DC767F9300B7C /* Build configuration list for PBXNativeTarget "Pods-pos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCAF92DBEDA386453285586B1C2E2CF /* Debug */,
+				A77036182DEBE26E875A8C758CBE65E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B992527C4FBBDE074B7267DE14328D5E /* Build configuration list for PBXNativeTarget "BLKFlexibleHeightBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8529573FE1E3C08CF4C4ACB1354F7A1F /* Debug */,
+				EF090B2191D95DE085D7FF4A578C8707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
